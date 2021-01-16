@@ -1,0 +1,390 @@
+.contenedor_nav {
+  font-family: "Hammersmith One", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contenedor_nav .menu_nav {
+  font-size: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-left: auto;
+}
+
+.contenedor_nav .menu_nav li {
+  margin: 0px 20px;
+  list-style: none;
+  border-radius: 4px;
+  padding: 4px;
+  font-size: 15px;
+}
+
+.contenedor_nav .menu_nav li:hover {
+  cursor: pointer;
+}
+
+.contenedor_nav .menu_nav .contact {
+  margin: 0px 20px;
+  list-style: none;
+  border: 1.5px solid #16AEBA;
+  color: #16AEBA;
+  font-size: 15px;
+  border-radius: 4px;
+  padding: 4px;
+}
+
+.contenedor_nav .menu_nav .contact:hover {
+  background-color: #0F97A2;
+  color: white;
+  border: 1.5px solid black;
+  cursor: pointer;
+}
+
+.contenedor_nav .main_nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 15px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  font-size: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+  padding: 4px;
+}
+
+.contenedor_nav .main_nav:hover {
+  cursor: pointer;
+}
+
+.contenedor_nav .main_nav li {
+  margin: 0px 10px;
+}
+
+.profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  font-family: "Hammersmith One", sans-serif;
+  margin: 100px 0px;
+}
+
+.profile p {
+  width: 40%;
+  font-size: 18px;
+}
+
+.profile p span {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.knowledge {
+  background-color: #16AEBA;
+  text-shadow: 5px 5px 10px black;
+  color: white;
+  padding: 5px 0px 60px 0px;
+  width: 100%;
+  text-align: center;
+  font-family: "Hammersmith One", sans-serif;
+}
+
+.knowledge .knowledge_images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.knowledge .knowledge_images .know_card {
+  text-shadow: 2px 2px 5px #16AEBA;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0px 30px;
+  color: black;
+  background-color: white;
+  padding: 0px 60px;
+  border-radius: 10px;
+  border: 1px solid grey;
+}
+
+.knowledge .knowledge_images .know_card img {
+  margin-top: 10px;
+}
+
+.knowledge .knowledge_images .know_card p {
+  margin: 0px;
+}
+
+.icons {
+  font-family: "Hammersmith One", sans-serif;
+  text-shadow: 2px 2px 10px black;
+  background-color: #16AEBA;
+  text-align: center;
+  color: white;
+  margin: 60px auto;
+  padding: 40px 0px;
+  width: 80%;
+  border: 1px  solid grey;
+  border-radius: 10px;
+}
+
+.icons div {
+  margin: 40px 0px;
+}
+
+.icons div img {
+  margin: 0px 10px;
+}
+
+.info {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  font-size: 12px;
+  text-align: center;
+  font-family: "Hammersmith One", sans-serif;
+  background-color: white;
+  color: white;
+  width: 600px;
+  margin: 0 auto;
+  padding: 15px 20px;
+  border-radius: 15px;
+  position: relative;
+  top: -120px;
+}
+
+.info:hover {
+  background-color: #7BD9E0;
+}
+
+.info div {
+  background-color: white;
+  color: black;
+  padding: 0px 7px;
+  border-bottom: 1px solid grey;
+  border-top: 1px solid grey;
+}
+
+.info .titulo_info {
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+.footer_main {
+  font-family: "Hammersmith One", sans-serif;
+  background-color: #16AEBA;
+  text-align: center;
+  padding: 60px 0px;
+}
+
+.footer_main img {
+  margin: 0px 20px;
+}
+
+.footer_img:hover {
+  cursor: pointer;
+}
+
+.redirection {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  width: 50%;
+  text-align: center;
+  margin: 0px auto 40px;
+  font-family: "Hammersmith One", sans-serif;
+}
+
+.redirection .titulo_redir {
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.botones {
+  margin: auto;
+  color: #16AEBA;
+  border: 2px solid #16AEBA;
+  width: 40%;
+  padding: 6px 3px;
+  border-radius: 5px;
+}
+
+.botones:hover {
+  cursor: pointer;
+  background-color: #0F97A2;
+  color: white;
+}
+
+.project {
+  border: 1px solid black;
+  width: 50%;
+  border-radius: 5px;
+  background-color: #10A331;
+  color: white;
+  padding: 20px 20px;
+}
+
+.information {
+  text-align: center;
+  font-family: "Hammersmith One", sans-serif;
+  background-color: #16AEBA;
+  margin: 40px auto;
+  padding: 20px 20px;
+  border-radius: 10px;
+  width: 45%;
+}
+
+.information_grid {
+  text-align: left;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 220px 400px;
+      grid-template-columns: 220px 400px;
+}
+
+.information_grid span {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.foto_me {
+  border-radius: 50%;
+}
+
+.experience {
+  font-family: "Hammersmith One", sans-serif;
+  text-align: center;
+  width: 30%;
+  margin: 80px auto;
+  border: 2px solid grey;
+}
+
+.form_main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 50px 0px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 630px;
+  font-family: "Hammersmith One", sans-serif;
+}
+
+.form_main_info {
+  grid-gap: 20px 0px;
+  display: -ms-grid;
+  display: grid;
+  padding: 20px;
+}
+
+.form_main_info div {
+  margin: 0px 10px;
+}
+
+.form_main_info div input {
+  margin: 0px 0px 30px 0px;
+}
+
+.form_main_info div h4 {
+  margin: 0px;
+}
+
+.textArea {
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+.textArea textarea {
+  width: 570px;
+  height: 100PX;
+}
+
+.button {
+  margin: 30px 0px;
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 4;
+  text-align: center;
+}
+
+.button input {
+  border-radius: 5px;
+  border: 2px solid #16AEBA;
+  background-color: white;
+  color: #16AEBA;
+  padding: 5px 15px;
+}
+
+.button input:hover {
+  padding: 5px 40px;
+  cursor: pointer;
+}
+
+.success {
+  text-align: center;
+  font-family: "Hammersmith One", sans-serif;
+}
+
+.success a {
+  background-color: white;
+  border: 2px solid #16AEBA;
+  padding: 7px;
+  border-radius: 4px;
+  color: #16AEBA;
+  text-decoration: none;
+}
+
+.success a:hover {
+  color: white;
+  background-color: #16AEBA;
+  cursor: pointer;
+}
+/*# sourceMappingURL=global.module.css.map */

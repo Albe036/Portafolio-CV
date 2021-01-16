@@ -1,0 +1,24 @@
+@import './_variables'
+
+.redirection
+    display: grid
+    grid-template-columns: repeat(2, 1fr)
+    width: 50%
+    text-align: center
+    margin: 0px auto 40px
+    font-family: $fuente-principal
+    .titulo_redir
+        grid-column-start: 1
+        grid-column-end: 3
+    div
+.botones
+    margin: auto
+    color: $background-azul
+    border: 2px solid $background-azul
+    width: 40%
+    padding: 6px 3px
+    border-radius: 5px
+    &:hover
+        cursor: pointer
+        background-color: $background-dazul
+        color: white
