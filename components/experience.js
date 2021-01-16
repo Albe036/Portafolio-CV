@@ -8,10 +8,10 @@ const Experience = () =>{
             <h2>Experiencia Laboral - Front-End</h2>
             <div>
                 <Image
-                    src ="/images/me/ME2.svg"
+                    src ="/images/me/MR.jpg"
                     alt = "MR"
-                    width = {200}
-                    height = {200}
+                    width = {150}
+                    height = {150}
                 />
             </div>
             <div>

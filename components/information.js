@@ -8,6 +8,13 @@ const Information = () =>{
             <h1>Albeiro Javier Lozano Peñate</h1>
             <div className = {Style.information_grid}>
                 <div>
+                    <Image
+                        src="/images/me/ME3.jpg"
+                        alt = "Foto de perfil"
+                        width={200}
+                        height={220}
+                        className = {Style.foto_perfil}
+                    />
                 </div>
                 <div>
                     <p><span>Profesion:</span> Ingeniero de sistemas</p>

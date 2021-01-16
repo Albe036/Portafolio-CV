@@ -98,7 +98,7 @@ const Info = () =>{
                     <p>NextJS</p>
                     <p>Hooks</p>
                     <p>ReactDOM</p>
-                    <p>Isomorphic-fetch</p>
+                    <p>Axios</p>
                     <p>Buenas practicas</p>
                     <p>Enfoque funcional</p>
                 </div>
