@@ -16,7 +16,7 @@ const Redirection = () =>{
             </div>
             <div>
                 <Link href="/about">
-                    <p className = {Style.botones}>Acerca de mi</p>
+                    <p className = {Style.botones}>Perfil</p>
                 </Link>
             </div>
             <div>
