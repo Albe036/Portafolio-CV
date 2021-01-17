@@ -24,7 +24,7 @@ const Navegation = (props) =>{
                     <li>Inicio</li>
                 </Link>
                 <Link href="/about">
-                    <li>Acerca de mi</li>
+                    <li>Perfil</li>
                 </Link>
                 <Link href="/contact">
                     <li className={Style.contact}>Contactame</li>

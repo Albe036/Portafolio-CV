@@ -59,13 +59,13 @@ const Knowledge = () =>{
             <div className={Style.icons}>
                 <h2>Frameworks & mas</h2>
                 <div>
-                    <Image src = "/images/fw/dominio.svg" alt="fw1" width={60} height={60}/>
-                    <Image src = '/images/fw/github.svg' alt="fw2" width={60} height={60}/>
-                    <Image src = '/images/fw/hablar.svg' alt="fw3" width={60} height={60}/>
-                    <Image src = '/images/fw/html-5.svg' alt="fw4" width={60} height={60}/>
-                    <Image src = '/images/fw/mysql.svg' alt="fw5" width={60} height={60}/>
-                    <Image src = '/images/fw/nodejs.svg' alt="fw5" width={60} height={60}/>
-                    <Image src = '/images/fw/reaccionar.svg' alt="fw5" width={60} height={60}/>
+                    <Image src = "/images/fw/dominio.svg" alt="fw1" width={50} height={50}/>
+                    <Image src = '/images/fw/github.svg' alt="fw2" width={50} height={50}/>
+                    <Image src = '/images/fw/hablar.svg' alt="fw3" width={50} height={50}/>
+                    <Image src = '/images/fw/html-5.svg' alt="fw4" width={50} height={50}/>
+                    <Image src = '/images/fw/mysql.svg' alt="fw5" width={50} height={50}/>
+                    <Image src = '/images/fw/nodejs.svg' alt="fw5" width={50} height={50}/>
+                    <Image src = '/images/fw/reaccionar.svg' alt="fw5" width={50} height={50}/>
                 </div>
             </div>
             <Info/>
