@@ -219,7 +219,7 @@
   grid-column-end: 4;
 }
 
-@media (max-width: 720px) {
+@media (max-width: 520px) {
   .knowledge {
     width: 623px;
   }
@@ -241,6 +241,46 @@
   }
   .info {
     width: 500px;
+  }
+}
+
+@media (max-width: 720px) {
+  .knowledge .knowledge_images {
+    width: 620px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: auto;
+  }
+  .knowledge .knowledge_images .know_card {
+    height: 150px;
+  }
+  .icons {
+    width: 680px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .knowledge .knowledge_images {
+    width: 620px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: auto;
+  }
+  .knowledge .knowledge_images .know_card {
+    height: 150px;
+  }
+  .icons {
+    width: 680px;
   }
 }
 
@@ -297,7 +337,19 @@
   color: white;
 }
 
+@media (max-width: 520px) {
+  .redirection {
+    width: 620px;
+  }
+}
+
 @media (max-width: 720px) {
+  .redirection {
+    width: 620px;
+  }
+}
+
+@media (max-width: 1000px) {
   .redirection {
     width: 620px;
   }
@@ -346,6 +398,24 @@
   }
 }
 
+@media screen and (max-width: 720px) {
+  .information {
+    width: 590px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .information {
+    width: 590px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .information {
+    width: 590px;
+  }
+}
+
 .experience {
   font-family: "Hammersmith One", sans-serif;
   text-align: center;
@@ -355,6 +425,24 @@
 }
 
 @media screen and (max-width: 520px) {
+  .experience {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .experience {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .experience {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
   .experience {
     width: 400px;
   }
