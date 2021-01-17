@@ -78,6 +78,15 @@
   margin: 0px 10px;
 }
 
+@media screen and (max-width: 520px) {
+  .contenedor_nav {
+    width: 623px;
+  }
+  .contenedor_nav_footer {
+    width: 623px;
+  }
+}
+
 .profile {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -104,6 +113,12 @@
   font-weight: bold;
 }
 
+@media screen and (max-width: 520px) {
+  .profile {
+    width: 628px;
+  }
+}
+
 .knowledge {
   background-color: #16AEBA;
   text-shadow: 5px 5px 10px black;
@@ -115,16 +130,10 @@
 }
 
 .knowledge .knowledge_images {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
 }
 
 .knowledge .knowledge_images .know_card {
@@ -210,6 +219,31 @@
   grid-column-end: 4;
 }
 
+@media (max-width: 720px) {
+  .knowledge {
+    width: 623px;
+  }
+  .knowledge .knowledge_images {
+    width: 620px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .knowledge .knowledge_images .know_card {
+    height: 150px;
+  }
+  .icons {
+    width: 620px;
+  }
+  .info {
+    width: 500px;
+  }
+}
+
 .footer_main {
   font-family: "Hammersmith One", sans-serif;
   background-color: #16AEBA;
@@ -223,6 +257,12 @@
 
 .footer_img:hover {
   cursor: pointer;
+}
+
+@media screen and (max-width: 520px) {
+  .footer_main {
+    width: 623px;
+  }
 }
 
 .redirection {
@@ -255,6 +295,12 @@
   cursor: pointer;
   background-color: #0F97A2;
   color: white;
+}
+
+@media (max-width: 720px) {
+  .redirection {
+    width: 620px;
+  }
 }
 
 .project {
@@ -294,12 +340,24 @@
   border-radius: 50%;
 }
 
+@media screen and (max-width: 520px) {
+  .information {
+    width: 590px;
+  }
+}
+
 .experience {
   font-family: "Hammersmith One", sans-serif;
   text-align: center;
   width: 30%;
   margin: 80px auto;
   border: 2px solid grey;
+}
+
+@media screen and (max-width: 520px) {
+  .experience {
+    width: 400px;
+  }
 }
 
 .form_main {
